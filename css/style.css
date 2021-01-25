@@ -6,13 +6,13 @@
 html,
 body {
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 768px) {
   html,
   body {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 .container {
@@ -42,7 +42,7 @@ body {
 }
 
 
-.popup {
+.popup{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,12 +94,13 @@ body {
 }
 .popuptext h1 {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 2rem;
   text-transform: uppercase;
   color: #0a0a0a;
+  text-align:  center
 }
-.popuptext p {
+.popuptext ul {
   font-size: 0.875rem;
   color: #686868;
   line-height: 1.5;
@@ -181,4 +182,7 @@ body {
   );
   vertical-align: top;
   margin-bottom: -1px;;
+}
+.nav{
+  text-align:  center;
 }
